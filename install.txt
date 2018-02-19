@@ -1,0 +1,16 @@
+# First install anaconda and dependencies
+# To install tensorflow see https://www.tensorflow.org/install/install_linux#InstallingAnaconda
+# We use python 3.5
+
+conda create -name chess python=3.5 pip ipython jupyter numpy scipy matplotlib mpi4py
+
+# Insall tensorflow
+pip install --ignore-installed --upgrade tfBinaryURL
+# Alternative
+pip install --upgrade tensorflow
+
+# TODO: create a spec-list for conda
+
+# Install pip dependcies
+pip install python-chess
+
